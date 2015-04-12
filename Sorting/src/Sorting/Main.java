@@ -22,11 +22,10 @@ public class Main {
 		
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		int[] sortedArray = BubbleSort.bubblesort(unsortedArray);
-		for(int j = 0; j < sortedArray.length; j++) {
-			System.out.println(sortedArray[j]);
+		int[] sortedArray = InsertionSort.insertionSort(unsortedArray);
+		for (int element : sortedArray) {
+			System.out.println(element);
 		}
-
 	}
 
 }
